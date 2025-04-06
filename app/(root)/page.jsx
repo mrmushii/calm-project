@@ -1,9 +1,12 @@
-import React from 'react'
+import UpperPart from "@/components/UpperPart";
+import React from "react";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+      <UpperPart />
+    </>
+  );
+};
 
-export default page
+export default page;
