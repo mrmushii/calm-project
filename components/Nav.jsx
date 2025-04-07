@@ -20,7 +20,7 @@ const Nav = () => {
           <Link href={"/try_for_free"}>
             <Button
               className={
-                "bg-gradient-to-r from-[#4972E1] to-[#DB6FEE] w-[174] py-6 rounded-4xl"
+                "bg-gradient-to-r from-[#4972E1] to-[#DB6FEE] w-[174] py-6 rounded-4xl hover:bg-gradient-to-r hover:from-[#3364eb] hover:to-[#ce2beb]"
               }
             >
               Try Safe Space for Free
