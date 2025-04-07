@@ -1,23 +1,25 @@
 import CommonHero from "@/components/folder/CommonHero";
 import React from "react";
 
-const Sleep = () => {
+
+const Sleep = ({sleeps}) => {
+  const sleep = sleeps[0]
   return (
-    <div className="w-full h-screen">
+    <div className="w-full ">
       <CommonHero
         title={
-          "Fall asleep easier with sleep meditations, relaxing music, and calming soundscapes for your best rest."
+          sleep.title
         }
         description={
-          "Experience better sleep with guided meditations, exclusive sleep music, and calming sounds. With hundreds of options to choose from, you’ll drift off to dreamland effortlessly. Just press play and relax."
+          sleep.description
         }
-        image={"/sleep-hero.png"}
-        classname={"bg-gradient-to-b from-[#214D72] to-[#3A8FD7]"}
+        image={sleep.image}
+        classname={sleep.classname}
         textClr={
-          "bg-gradient-to-r from-[#A062F3] to-[#322AA7] bg-clip-text text-transparent"
+          sleep.textClr
         }
-        btnDesc={"Improve your sleep for free"}
-        bgClr={"bg-[#D9D9D9]"}
+        btnDesc={sleep.btnDesc}
+        bgClr={sleep.bgClr}
       />
     </div>
   );
