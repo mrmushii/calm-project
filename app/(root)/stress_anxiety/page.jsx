@@ -15,7 +15,7 @@ const stress = [
     classname:
       "bg-radial-[at_50%_75%] from-[#D6ECF7] to-[#9CE4C2] text-black",
     btnDesc: "Find relief from stress for free",
-    bgClr: "bg-[#D9D9D9]",
+    bgClr: "bg-[#ffff]",
   },
 ];
 const generalData = [

@@ -15,7 +15,7 @@ const CommonHero = ({
     <div className="flex flex-col lg:flex-row min-h-screen">
   {/* Left */}
   <div className={`w-full lg:w-1/2 flex flex-col justify-center px-6 sm:px-10 md:px-20 lg:px-24 xl:px-32 py-12 ${bgClr}`}>
-    <h1 className={`text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight mb-4 ${textClr} ${classname}`}>
+    <h1 className={`text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight mb-4 ${textClr} `}>
       {title}
     </h1>
     <p className="mb-8 text-base sm:text-lg md:text-xl leading-relaxed text-gray-700">

@@ -34,21 +34,7 @@ const generalData = [
   },
 ];
 
-const minds = [
-  {
-    title:
-      "Calm your mind with mindfulness exercises, relaxation techniques, and soothing soundscapes for mental clarity.",
-    description:
-      "Experience better focus and mental well-being with guided mindfulness exercises, exclusive mental clarity music, and calming sounds. With hundreds of options to choose from, you’ll find peace and clarity with ease. Just press play and relax.",
-    image: "/mind-hero.png",
-    classname: "bg-gradient-to-b from-[#214D72] to-[#3A8FD7]",
-    textClr:
-      "bg-gradient-to-r from-[#A062F3] to-[#322AA7] bg-clip-text text-transparent",
 
-    btnDesc: "Improve your mental clarity for free",
-    bgClr: "bg-[#D9D9D9]",
-  },
-];
 
 const tab = [
   {
@@ -59,7 +45,7 @@ const tab = [
     subheading: "Relax your Mind and Release Stress with Guided Meditation",
     musicAuthor: "Narrated by CalmVoice",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/stress.mp3"
+    audioSrc: "/audio/meditation.mp3"
   },
   {
     heading: "Sounds of nature to calm the mind",
@@ -69,7 +55,7 @@ const tab = [
     subheading: "Center Your Thoughts with Nature’s Healing Soundscapes",
     musicAuthor: "Nature’s Serenade",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/stress.mp3"
+    audioSrc: "/audio/nature.mp3"
   },
   {
     heading: "Ambient music to focus the mind",
@@ -79,7 +65,7 @@ const tab = [
     subheading: "Achieve Mental Clarity with Soothing Instrumental Music",
     musicAuthor: "MentalFlow Collective",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/stress.mp3"
+    audioSrc: "/audio/focus.mp3"
   },
   {
     heading: "Track your mental health journey",
@@ -89,18 +75,31 @@ const tab = [
     subheading: "Track Your Mental Health with Mindfulness Practices",
     musicAuthor: "MindfulSoul",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/stress.mp3"
+    audioSrc: "/audio/relax.mp3"
   }
 ];
 
 
 
-
+const mind = [
+  {
+    title:
+      "Mindfulness, meditation, and guided programs to help you create lasting healthy habits.",
+    description:
+      "You’ve come to the right place. We provide easy-to-access tools for mindfulness, including guided meditations, calming music, and daily programs designed to fit seamlessly into your life and support your well-being.",
+    image: "/mind-hero.png",
+    classname: "bg-gradient-to-r from-[#A062F3] to-[#322AA7]",
+    textClr:
+      "bg-gradient-to-r from-[#A062F3] to-[#322AA7] bg-clip-text text-transparent",
+    btnDesc: "Improve your sleep for free",
+    bgClr: "bg-[#D9D9D9]",
+  },
+];
 const page = () => {
   return (
     <>
     <div className="flex flex-col gap-48">
-      <Mind mind = {minds} />
+      <Mind mind = {mind} />
       <Tab grad = {"from-[#A062F3] to-[#322AA7]"} tabName = {mindTabs} tabData = {tab} />
       <ExploreMind />
       <Subscription grad = {"from-[#A062F3] to-[#322AA7]"}/>
