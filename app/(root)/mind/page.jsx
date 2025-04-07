@@ -1,7 +1,14 @@
 import React from "react";
+import Mind from "@/components/folder/Mind";
+import ExploreMind from "@/components/folder/ExploreMind";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <>
+      <Mind />
+      <ExploreMind />
+    </>
+  );
 };
 
 export default page;
