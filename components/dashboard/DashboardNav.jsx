@@ -10,7 +10,7 @@ const DashboardNav = () => {
         height={40}
         width={65}
         alt="Sound Icon"
-        className="pr-8 border-r-4 border-[#0d2e60] hover:animate-spin"
+        className="pr-8 border-r-4 border-[#0d2e60] "
       />
       <button className="bg-white text-white h-10 text-xs px-4 py-1 rounded-full animate-pulse hover:animate-none from-[#A062F3] to-[#322AA7] bg-gradient-to-b hover:from-[#322AA7] hover:to-[#A062F3]">
         Try Safe Space for Free
