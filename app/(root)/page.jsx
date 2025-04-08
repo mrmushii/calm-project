@@ -7,9 +7,9 @@ const page = () => {
   return (
     <div>
       <UpperPart />
-      <div className="px-32 py-16">
+      
         <Frequently />
-      </div>
+      
     </div>
   );
 };

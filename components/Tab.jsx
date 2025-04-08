@@ -14,17 +14,18 @@ const Tab = ({ tabName, tabData,grad }) => {
   className="w-full max-w-6xl bg-[#F2F2F2] rounded-2xl p-4 sm:p-6 mx-auto max-sm:w-full "
 >
   {/* Tabs */}
-  <TabsList className="flex flex-wrap justify-center items-center mx-auto bg-white p-1 rounded-full mb-6 gap-2">
+  <TabsList className="flex flex-nowrap justify-center items-center mx-auto bg-white p-1 rounded-full mb-6 gap-1 sm:gap-2 whitespace-nowrap w-3/4 max-md:w-full">
   {tabName.map((name, index) => (
     <TabsTrigger
       key={index}
       value={name.toLowerCase().replace(/\s+/g, "-")}
-      className={`text-sm sm:text-base px-4 py-3 rounded-full data-[state=active]:bg-gradient-to-b [state=active]:${grad} data-[state=active]:text-black transition font-medium`}
+      className={`text-xs sm:text-sm px-2 sm:px-4 py-2 sm:py-3 rounded-full data-[state=active]:bg-gradient-to-b [state=active]:${grad} data-[state=active]:text-black transition font-medium`}
     >
       {name}
     </TabsTrigger>
   ))}
 </TabsList>
+
 
 
   {/* Tab Content */}

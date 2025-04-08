@@ -45,7 +45,7 @@ const tab = [
     subheading: "Relax your Mind and Release Stress with Guided Meditation",
     musicAuthor: "Narrated by CalmVoice",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/meditation.mp3"
+    audioSrc: "/audio/stress.mp3"
   },
   {
     heading: "Sounds of nature to calm the mind",
@@ -55,7 +55,7 @@ const tab = [
     subheading: "Center Your Thoughts with Nature’s Healing Soundscapes",
     musicAuthor: "Nature’s Serenade",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/nature.mp3"
+    audioSrc: "/audio/stress.mp3"
   },
   {
     heading: "Ambient music to focus the mind",
@@ -65,7 +65,7 @@ const tab = [
     subheading: "Achieve Mental Clarity with Soothing Instrumental Music",
     musicAuthor: "MentalFlow Collective",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/focus.mp3"
+    audioSrc: "/audio/stress.mp3"
   },
   {
     heading: "Track your mental health journey",
@@ -75,7 +75,7 @@ const tab = [
     subheading: "Track Your Mental Health with Mindfulness Practices",
     musicAuthor: "MindfulSoul",
     imageUrl: "/mindTab1.png",
-    audioSrc: "/audio/relax.mp3"
+    audioSrc: "/audio/stress.mp3"
   }
 ];
 

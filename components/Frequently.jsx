@@ -78,15 +78,12 @@ const Frequently = () => {
   return (
     <>
     {/* Header Text */}
-    <div className="text-[28px] sm:text-[32px] md:text-[36px] flex flex-col items-center text-center px-4">
+    <div className="text-[28px] sm:text-[32px] md:text-[36px] flex flex-col items-center text-center px-4 max-sm:px-0">
       <h1>Start your free Trial of</h1>
       <h1>Safe Space</h1>
     </div>
 
-    {/* Plan Card */}
     
-
-    {/* Subscription Info + Button */}
     <Subscription grad = {"from-[#4972E1] to-[#DB6FEE]"}/>
 
     {/* FAQ Section */}

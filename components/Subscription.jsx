@@ -5,7 +5,7 @@ const Subscription = ({grad}) => {
   return (
     <>
     <div>
-    <div className="flex justify-center mt-6 px-4">
+    <div className="flex justify-center mt-6 px-4 max-sm:w-full sm:px-0">
       <div className={`relative w-full max-w-xl p-[2px] rounded-xl bg-gradient-to-r ${grad}`}>
         <div className={`absolute -top-2 left-4 w-[120px] sm:w-[145px] rounded-[10px] bg-gradient-to-r ${grad}`}>
           <p className="text-white text-center text-[12px] sm:text-[13px]">
